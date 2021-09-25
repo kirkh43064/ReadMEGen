@@ -1,0 +1,28 @@
+{
+  "name": "readmegen",
+  "version": "1.0.0",
+  "description": "Profesional ReadMe Generator",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkh43064/ReadMEGen.git"
+  },
+  "author": "Kirk Hallam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirkh43064/ReadMEGen/issues"
+  },
+  "homepage": "https://github.com/kirkh43064/ReadMEGen#readme", 
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0",
+    "util": "^0.12.3"
+  }
+}
