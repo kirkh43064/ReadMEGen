@@ -66,46 +66,46 @@ inquirer
         }
     ])
     .then((answers) => {
-        const readMe =  
-            `#${answers.projectTitle}
+        const readMe =  `
+        #${answers.projectTitle}
   
-            ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
+        ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
 
-            ## Description
+        ## Description
             ${answers.description}
 
-            ## Table of Contents
-            - [Description](#description)
-            - [Installation](#installation)
-            - [Usage](#usage)
-            - [License](#license)
-            - [Contributing](#contributing)
-            - [Tests](#tests)
-            - [Questions](#questions)
+        ## Table of Contents
+        - [Description](#description)
+        - [Installation](#installation)
+        - [Usage](#usage)
+        - [License](#license)
+        - [Contributing](#contributing)
+        - [Tests](#tests)
+        - [Questions](#questions)
 
-            ## Installation
+        ## Installation
             ${answers.installation}
 
-            ## Usage
+        ## Usage
             ${answers.use}
 
-            ## License
+        ## License
             ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
 
             This application is covered by the ${answers.license} license.
 
-            ## Contributing
+        ## Contributing
             ${answers.contributors}
 
-            ## Tests
+        ## Tests
             ${answers.tests}
 
-            # Questions
+        # Questions
             ${answers.questions}
 
             My GitHub: [${answers.username}](https://github.com/${answers.username})
 
             Send any questions to: ${answers.email}`
 
-            fs.writeFile('dist/README.md', readMe, (error) => {console.log(error)});    
+        fs.writeFile('dist/README.md', readMe, (error) => {console.log(error)});    
     })
