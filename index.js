@@ -67,7 +67,7 @@ inquirer
     ])
     .then((answers) => {
         const readMe =  `
-        #${answers.projectTitle}
+        #_${answers.projectTitle}_
   
         ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
 
