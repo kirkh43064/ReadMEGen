@@ -7,17 +7,17 @@ inquirer
         {
             type: "input",
             name: "projectTitle",
-            message: "What is the projects Title?",
+            message: "What is the Projects Title?",
         },
         {
             type: "input",
             name: "description",
-            message: "Write a brief description of your project: "
+            message: "Write a brief description of your Project: "
         },
         {
             type: "input",
             name: "install",
-            message: "Describe the installation process if any: ",
+            message: "Describe the Installation process if any: ",
         },
         {
             type: "input",
@@ -29,6 +29,7 @@ inquirer
             name: "license",
             message: "Chose the appropriate license for this project: ",
             choices: [
+                "None",
                 "Apache",
                 "Academic",
                 "GNU",
@@ -41,7 +42,7 @@ inquirer
         {
             type: "input",
             name: "contributors",
-            message: "Who are the contributors of this projects?"
+            message: "Who contributed to this project?"
         },
         {
             type: "input",
@@ -65,13 +66,14 @@ inquirer
         }
     ])
     .then((answers) => {
-        console.log(answers)
-        const readMe =  `
-            <h1 align="center">${answers.projectTitle}</h1>
+        const readMe =  
+            `#${answers.projectTitle}
   
-            ![badge](https://img.shields.io/badge/license-${answers.license}-blue)<br />
+            ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
+
             ## Description
             ${answers.description}
+
             ## Table of Contents
             - [Description](#description)
             - [Installation](#installation)
@@ -80,24 +82,30 @@ inquirer
             - [Contributing](#contributing)
             - [Tests](#tests)
             - [Questions](#questions)
+
             ## Installation
             ${answers.installation}
+
             ## Usage
             ${answers.use}
+
             ## License
             ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
-            <br />
-            This application is covered by the ${answers.license} license. 
+
+            This application is covered by the ${answers.license} license.
+
             ## Contributing
             ${answers.contributors}
+
             ## Tests
             ${answers.tests}
+
             # Questions
-            ${answers.questions}<br />
-            <br />
-            Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
-            <br />
-            Email me with any questions: ${answers.email}<br /><br />
-            This README was generated with by [README-generator](https://github.com/kirkh43064/ReadMEGen)`
-            fs.writeFile('dist/readMe.md', readMe, (error) => {console.log(error)});    
+            ${answers.questions}
+
+            My GitHub: [${answers.username}](https://github.com/${answers.username})
+
+            Send any questions to: ${answers.email}`
+
+            fs.writeFile('dist/README.md', readMe, (error) => {console.log(error)});    
     })
