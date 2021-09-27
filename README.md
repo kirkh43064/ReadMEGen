@@ -2,7 +2,7 @@
 
 In this project we are to create a console line app that gathers user info and turns it into a professional ReadMe.md file.
 
-![Screenshots of questions]()
+![Screenshots of questions](./assets/Readme.gif)
 
 my repository can be reached [Here](https://github.com/kirkh43064/ReadMEGen).
 
