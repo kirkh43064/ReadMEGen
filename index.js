@@ -67,45 +67,45 @@ inquirer
     ])
     .then((answers) => {
         const readMe =  `
-        #_${answers.projectTitle}_
+#_${answers.projectTitle}_
   
-        ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
+![badge](https://img.shields.io/badge/license-${answers.license}-blue)
 
-        ## Description
-            ${answers.description}
+## Description
+    ${answers.description}
 
-        ## Table of Contents
-        - [Description](#description)
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [License](#license)
-        - [Contributing](#contributing)
-        - [Tests](#tests)
-        - [Questions](#questions)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-        ## Installation
-            ${answers.installation}
+## Installation
+${answers.installation}
 
-        ## Usage
-            ${answers.use}
+## Usage
+    ${answers.use}
 
-        ## License
-            ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
+## License
+    ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
 
-            This application is covered by the ${answers.license} license.
+    This application is covered by the ${answers.license} license.
 
-        ## Contributing
-            ${answers.contributors}
+## Contributing
+    ${answers.contributors}
 
-        ## Tests
-            ${answers.tests}
+## Tests
+    ${answers.tests}
 
-        # Questions
-            ${answers.questions}
+# Questions
+    ${answers.questions}
 
-            My GitHub: [${answers.username}](https://github.com/${answers.username})
+    My GitHub: [${answers.username}](https://github.com/${answers.username})
 
-            Send any questions to: ${answers.email}`
+    Send any questions to: ${answers.email}`
 
         fs.writeFile('dist/README.md', readMe, (error) => {console.log(error)});    
-    })
+})

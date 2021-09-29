@@ -1,40 +1,40 @@
 
-        #Professional README Generator
+#_Professional README Generator_
   
-        ![badge](https://img.shields.io/badge/license-None-blue)
+![badge](https://img.shields.io/badge/license-MIT-blue)
 
-        ## Description
-            Creates readme.md file for Github
+## Description
+    creates README.md for github
 
-        ## Table of Contents
-        - [Description](#description)
-        - [Installation](#installation)
-        - [Usage](#usage)
-        - [License](#license)
-        - [Contributing](#contributing)
-        - [Tests](#tests)
-        - [Questions](#questions)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-        ## Installation
-            undefined
+## Installation
+undefined
 
-        ## Usage
-            To Create a readMe file
+## Usage
+    generate readme file
 
-        ## License
-            ![badge](https://img.shields.io/badge/license-None-blue)
+## License
+    ![badge](https://img.shields.io/badge/license-MIT-blue)
 
-            This application is covered by the None license.
+    This application is covered by the MIT license.
 
-        ## Contributing
-            Kirk Hallam
+## Contributing
+    Kirk Hallam
 
-        ## Tests
-            No
+## Tests
+    No
 
-        # Questions
-            Report to GitHub issues
+# Questions
+    Report to github issues
 
-            My GitHub: [kirkh43064](https://github.com/kirkh43064)
+    My GitHub: [kirkh43064](https://github.com/kirkh43064)
 
-            Send any questions to: Kirkh43064@yahoo.com
+    Send any questions to: kirkh43064@yahoo.com
