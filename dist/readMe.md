@@ -1,10 +1,10 @@
 
 #_Professional README Generator_
   
-![badge](https://img.shields.io/badge/license-MIT-blue)
+![badge](https://img.shields.io/badge/license-Apache-blue)
 
 ## Description
-    creates README.md for github
+    creates readme.md file for github projects
 
 ## Table of Contents
 - [Description](#description)
@@ -19,21 +19,21 @@
 undefined
 
 ## Usage
-    generate readme file
+    To create readme files
 
 ## License
-    ![badge](https://img.shields.io/badge/license-MIT-blue)
+    ![badge](https://img.shields.io/badge/license-Apache-blue)
 
-    This application is covered by the MIT license.
+    This application is covered by the Apache license.
 
 ## Contributing
     Kirk Hallam
 
 ## Tests
-    No
+    no
 
 # Questions
-    Report to github issues
+    report to GitHub issues
 
     My GitHub: [kirkh43064](https://github.com/kirkh43064)
 

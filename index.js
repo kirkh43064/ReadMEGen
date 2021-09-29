@@ -72,7 +72,7 @@ inquirer
 ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
 
 ## Description
-    ${answers.description}
+${answers.description}
 
 ## Table of Contents
 - [Description](#description)
@@ -87,25 +87,25 @@ inquirer
 ${answers.installation}
 
 ## Usage
-    ${answers.use}
+${answers.use}
 
 ## License
-    ![badge](https://img.shields.io/badge/license-${answers.license}-blue)
+![badge](https://img.shields.io/badge/license-${answers.license}-blue)
 
-    This application is covered by the ${answers.license} license.
+This application is covered by the ${answers.license} license.
 
 ## Contributing
-    ${answers.contributors}
+${answers.contributors}
 
 ## Tests
-    ${answers.tests}
+${answers.tests}
 
 # Questions
-    ${answers.questions}
+${answers.questions}
 
-    My GitHub: [${answers.username}](https://github.com/${answers.username})
+My GitHub: [${answers.username}](https://github.com/${answers.username})
 
-    Send any questions to: ${answers.email}`
+Send any questions to: ${answers.email}`
 
         fs.writeFile('dist/README.md', readMe, (error) => {console.log(error)});    
 })
